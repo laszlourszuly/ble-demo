@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="vertical_bias">0.4</fraction>
+    <fraction name="width_percent">0.7</fraction>
+    <integer name="request_code_location_permission">2489</integer>
+</resources>

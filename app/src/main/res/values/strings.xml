@@ -1,0 +1,22 @@
+<resources>
+    <string name="address">Address</string>
+    <string name="alias">Alias</string>
+    <string name="bluetooth_devices_will_show_up_here">"Bluetooth devices will show up here as they are detected during the scanning process\n\nYou can start a scan process either by swiping the screen from the top or tapping the Scan-button here below."</string>
+    <string name="can_not_scan_while_permissions_not_granted">"The app can't scan for devices if the requested permissions aren't granted"</string>
+    <string name="can_not_scan_while_bluetooth_disabled">"The app can't scan for devices unless Bluetooth is enabled"</string>
+    <string name="connect_button">Connect button</string>
+    <string name="connecting_to_device">Connecting to device…</string>
+    <string name="connection">Connection</string>
+    <string name="details">Details</string>
+    <string name="enable_bluetooth">Enable Bluetooth</string>
+    <string name="enabling_bluetooth">Enabling Bluetooth…</string>
+    <string name="error">Error</string>
+    <string name="mtu_size">MTU size</string>
+    <string name="name">Name</string>
+    <string name="needs_permissions_in_order_to_function">"The app needs Location permissions in order to function as designed. This permission allows the app to scan for nearby Bluetooth devices.\n\nNext, you will have the opportunity to review and grant or decline the Location permission."</string>
+    <string name="not_available">N/A</string>
+    <string name="ok">OK</string>
+    <string name="review_permissions">Review permissions</string>
+    <string name="scan_button">Scan button</string>
+    <string name="why_permissions">Why permissions?</string>
+</resources>

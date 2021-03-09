@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    colorPrimary        colors map to components and elements, such as app bars and buttons.
+    colorSecondary      colors are most often used as accents on components, such as FABs and
+                        selection controls.
+
+    colorBackground     appears behind scrollable content and is used for the default window
+                        background.
+    colorSurface        is mapped to the surface of components such as cards, sheets and menus.
+    colorError          is used to indicate an error state for components such as text fields.
+
+    colorOn[*]          define how text, icons and strokes are colored in relation to the surface
+                        on which they appear.
+    -->
+
+    <!--LIGHT COLOR THEME-->
+    <color name="color_primary">@color/purple</color>
+    <color name="color_primary_variant">@color/purple_dark</color>
+    <color name="color_secondary">@color/teal_light</color>
+    <color name="color_secondary_variant">@color/teal_dark</color>
+
+    <color name="color_status_bar">@color/purple_dark</color>
+    <color name="color_background">@color/white</color>
+    <color name="color_surface">@color/grey_lighter</color>
+    <color name="color_divider">@color/grey_dark</color>
+    <color name="color_error">@color/red</color>
+
+    <color name="color_on_primary">@color/white</color>
+    <color name="color_on_secondary">@color/white</color>
+    <color name="color_on_background">@color/grey_darker</color>
+    <color name="color_on_surface">@color/grey_darker</color>
+    <color name="color_on_error">@color/white</color>
+
+    <color name="purple">#FF6200EE</color>
+    <color name="purple_light">#FFBB86FC</color>
+    <color name="purple_dark">#FF3700B3</color>
+    <color name="teal_light">#FF03DAC5</color>
+    <color name="teal_dark">#FF018786</color>
+    <color name="red">#FFFFAB91</color>
+    <color name="orange">#FFFFCC80</color>
+    <color name="green">#FFA5D6A7</color>
+    <color name="black">#FF000000</color>
+    <color name="grey">#FF6F6F6F</color>
+    <color name="grey_light">#FF808080</color>
+    <color name="grey_lighter">#FFD0D0D0</color>
+    <color name="grey_dark">#FF2B2B2B</color>
+    <color name="grey_darker">#FF1D1D1D</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

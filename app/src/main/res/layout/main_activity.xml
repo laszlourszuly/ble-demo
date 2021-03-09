@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen.main.MainActivity">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        app:layout_constraintTop_toTopOf="parent" />
+    <fragment
+        android:id="@+id/navigation_host"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:navGraph="@navigation/main_graph" />
+    <include
+        layout="@layout/main_permissions_layout"
+        android:id="@+id/permissions"
+        android:visibility="gone" />
+    <include
+        layout="@layout/main_bluetooth_layout"
+        android:id="@+id/bluetooth"
+        android:visibility="gone" />
+    <include
+        layout="@layout/main_progress_layout"
+        android:id="@+id/progress"
+        android:visibility="gone" />
+    <include
+        layout="@layout/main_error_layout"
+        android:id="@+id/error"
+        android:visibility="gone" />
+</androidx.constraintlayout.widget.ConstraintLayout>
